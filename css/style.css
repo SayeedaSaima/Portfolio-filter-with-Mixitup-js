@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: monospace;
+}
+a, a:hover{
+	text-decoration: none;
+	font-family: monospace;
+}
+.header{
+	width: 70%;
+	padding: 30px;
+	margin-left: 180px;
+	background: #08c;
+	text-align: center;
+}
+.header h1{
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.wrapper{
+	width: 100%;
+	padding: 80px 0;
+}
+.filter{
+	width: 65%;
+	margin: 0px auto 40px;
+	text-align: center;
+}
+.filter .btn-info{
+	padding: 12px 32px;
+	margin: 0px 4px;
+	background: #08c;
+	color: #fff;
+	border: 1px solid #08c;
+	font-size: 14px;
+	text-transform: capitalize;
+	transition: 0.5s;
+	border-radius: 2px;
+}
+.filter .btn-info:hover, .filter .btn-info:focus{
+	background: transparent;
+	color: #08c;
+	border: 1px solid #08c;
+	box-shadow: 1px 3px 8px #ccc;
+}
+.padd{
+	padding:10px;
+}
+.portfolio .item{
+	width: 100%;
+	position: relative;
+}
+.item .img-fluid{
+	width: 100%;
+	height: 200px;
+}
+.item .item-hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 136, 204, 0.8);
+	text-align: center;
+	transform: scale(0);
+	transition: 0.5s;
+}
+.portfolio .item:hover .item-hover{
+	transform: scale(1);
+}
+.item-hover .fa{
+	font-size: 50px;
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.footer{
+	width: 100%;
+	padding: 10px 0;
+	background: #08c;
+	text-align: center;
+}
+.footer .copyright{
+	font-size: 12px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 25px;
+}

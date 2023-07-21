@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio filter with mixitup</title>
+	<!-- style.css linking here -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- bootstrap.min.css linking here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--font-awesome.css linking here-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+</head>
+<body>
+	<header class="header">
+		<h1>Portfolio Filter with Mixitup</h1>
+	</header>
+	<section class="wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="filter">
+						<a href="#" class="btn btn-info" data-filter="all">All</a>
+						<a href="#" class="btn btn-info" data-filter=".ctg">Chittagong</a>
+						<a href="#" class="btn btn-info" data-filter=".kuakata">Kuakata</a>
+						<a href="#" class="btn btn-info" data-filter=".sajek">Sajek</a>
+						<a href="#" class="btn btn-info" data-filter=".coxsbazar">Cox's Bazar</a>
+					</div>
+				</div>
+			</div>
+			<div class="row portfolio">
+				<div class="mix col-md-4 ctg padd">
+					<div class="item">
+						<img src="images/ctg1.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 kuakata padd">
+					<div class="item">
+						<img src="images/k1.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 ctg padd">
+					<div class="item">
+						<img src="images/ctg2.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 sajek padd">
+					<div class="item">
+						<img src="images/s2.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 coxsbazar padd">
+					<div class="item">
+						<img src="images/c3.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 sajek padd">
+					<div class="item">
+						<img src="images/s1.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 coxsbazar padd">
+					<div class="item">
+						<img src="images/c2.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 sajek padd">
+					<div class="item">
+						<img src="images/s3.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 kuakata padd">
+					<div class="item">
+						<img src="images/k3.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 kuakata padd">
+					<div class="item">
+						<img src="images/k4.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 kuakata wp padd">
+					<div class="item">
+						<img src="images/k2.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+				<div class="mix col-md-4 coxsbazar padd">
+					<div class="item">
+						<img src="images/c1.jpg" alt="portfolio" class="img-fluid">
+						<div class="item-hover"><i class="fa fa-search-plus"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="copyright">copyright © 2023 <span> Sayeeda Saima</span></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- bootstrap.bundle.min.js LINKING HERE -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- mixitup.min.js linking here -->
+    <script src="js/mixitup.min.js"></script>
+    <script>
+    	var mixer = mixitup('.portfolio');
+    </script>
+</body>
+</html>
